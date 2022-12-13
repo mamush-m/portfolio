@@ -18,11 +18,14 @@
 }
 
 #nav p {
-    color: rgb(85, 85, 85);
     font-weight: 900;
     font-family: var(--cursive-font);
     font-size: 30px;
     text-shadow: 3px -3px 10px whitesmoke;
+}
+
+#nav p > *:link {
+    color: black;
 }
 
 #nav p > *:hover {
