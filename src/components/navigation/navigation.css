@@ -26,13 +26,14 @@
 
 #nav p > *:link {
     color: black;
+    text-decoration: none;
 }
 
 #nav p > *:hover {
     color: black;
     cursor: pointer;
     text-shadow: 2px 0px 5px whitesmoke;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #nav p > *:visited {
