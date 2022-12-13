@@ -88,3 +88,21 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
+#description {
+    font-family: var(--info-font);
+    line-height: 2rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+#description > * {
+    color: darkcyan;
+    font-weight: 700;
+}
+
+#description > *:visited {
+    color: cornflowerblue;
+    font-weight: 700;
+}

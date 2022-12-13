@@ -29,12 +29,15 @@ export const projects = [
 
     {
         name: 'Personal Portfolio Website (this website)',
+        gitHub: 'https://github.com/mamush-m/portfolio',
         description: 'This is my personal portfolio website where I showcase my projects and others can get in touch with me',
         techs: [
-            'React- to build the main UI',
+            'React',
+            'React Router',
             'CSS- styling',
-            'Git/GitHub- version control'
-        ]
+            'Git/GitHub- version control',
+        ],
+        url: 'https://elegant-valkyrie-152af5.netlify.app'
     },
 
     {

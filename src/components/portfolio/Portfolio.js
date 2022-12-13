@@ -4,6 +4,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 import data from './lottie/70242-man-working.json'
 import { projects } from './projects/projectsList';
 import { Project } from './projects/Project';
+import { Link } from "react-router-dom";
 
 export const Portfolio = () => {
     const [display, setDisplay] = useState(false);
@@ -59,7 +60,7 @@ export const Portfolio = () => {
 
             <div id="projects-section">
                 <h2 id="section-title">Projects</h2>
-                <p id="description">Listed below, you can see some of the projects I have done. Click on the project title to read some of the details, and get links for their respective GitHub repos as well as the live site if applicable. If you would like to get in touch with me, head over to my <h5>contact</h5> page. Thanks in advance!</p>
+                <p id="description">Listed below, you can see some of the projects I have done. Click on the project title to read some of the details, and get links for their respective GitHub repos as well as the live site if applicable. If you would like to get in touch with me, head over to my <Link to='../contact'>contact</Link> page. Thanks in advance!</p>
                     
                 <div id="projList">
                     {display? modal : projectsList}
