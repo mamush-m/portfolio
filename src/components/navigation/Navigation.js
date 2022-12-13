@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import './navigation.css'
-// import logo from '../../resources/images/goldLogo.png';
+import logo from '../../resources/images/goldLogo.png';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from "react-router-dom";
 
@@ -28,7 +28,7 @@ export const Navigation = ({content, updater, menu, setMenu}) => {
     return (
         <div id="nav">
             <Link to='/'>
-                {/* <img alt="" id="logo" src={logo}/> */}
+                <img alt="" id="logo" src={logo}/>
             </Link>
 
             <MenuIcon id='burger' className="menu" onClick={toggle}/>
