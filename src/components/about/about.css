@@ -40,7 +40,9 @@
     padding: 5px 30px;
     list-style: '- ';
     font-family: var(--info-font);
-    text-decoration: underline;
+    /* text-decoration: it; */
+    font-style: italic;
+    font-weight: 500;
 }
 
 #techSection {

@@ -1,24 +1,24 @@
 import React from "react";
-// import data from "../../resources/DB/data";
+import {data} from "../../resources/DB/data";
 import './about.css';
 import { Player } from '@lottiefiles/react-lottie-player';
 import lottieData from './lottie/95434-history.json'
 
 export const About = () => {
     
-    // const techs = data.map(tech => {
-    //     return <div className="platforms">
-    //         <a href={tech.url}>
-    //             <img alt="" src={tech.imgSource}></img>
-    //         </a>
+    const techs = data.map(tech => {
+        return <div className="platforms">
+            <a href={tech.url}>
+                <img alt="" src={tech.imgSource}></img>
+            </a>
 
-    //         <h3>
-    //             <a href={tech.url}>
-    //                 {tech.name}
-    //             </a>
-    //         </h3>
-    //     </div>
-    // });
+            <h3>
+                <a href={tech.url}>
+                    {tech.name}
+                </a>
+            </h3>
+        </div>
+    });
     
     return (
         <div id="about">
@@ -61,7 +61,7 @@ export const About = () => {
                     </div>
 
                     <div id="techs">
-                        {/* {techs} */}
+                        {techs}
                     </div>
                 </div>
             </div>
