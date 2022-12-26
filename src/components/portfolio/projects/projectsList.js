@@ -28,6 +28,19 @@ export const projects = [
     },
 
     {
+        name: 'Weather',
+        gitHub: 'https://github.com/mamush-m/weather-app',
+        description: 'Simple weather app that spits out basic meteorological data',
+        techs: [
+            'React',
+            'CSS',
+            'Git/GitHub',
+            'Weather API'
+        ],
+        url: 'https://thunderous-creponne-21cddf.netlify.app'
+    },
+
+    {
         name: 'Personal Portfolio Website (this website)',
         gitHub: 'https://github.com/mamush-m/portfolio',
         description: 'This is my personal portfolio website where I showcase my projects and others can get in touch with me',
