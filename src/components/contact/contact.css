@@ -25,3 +25,9 @@
 #hub:visited, #email:visited {
     color:cornflowerblue;
 }
+
+@media screen and (max-width: 600px) {
+    #contact {
+        height: auto;
+    }
+}

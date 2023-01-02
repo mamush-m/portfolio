@@ -13,13 +13,9 @@ function App() {
 
   const [menu, setMenu] = useState(false);
 
-  // const toggle = () => {
-  //   setMenu(false)
-  // }
 
   return (
     <div className="App" >
-     {/* <Navigation content={content} updater={updater}/> */}
      <Navigation menu={menu} setMenu={setMenu}/>
 
 
@@ -31,8 +27,6 @@ function App() {
      </Routes>
 
 
-     {/* <Home/> */}
-     {/* <Display content={content}/> */}
     </div>
   );
 }

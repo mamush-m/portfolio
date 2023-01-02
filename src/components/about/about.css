@@ -19,7 +19,6 @@
 
 #bio {
     background-color: orange;
-    /* margin-bottom: 100px; */
 }
 
 #bio p {
@@ -55,8 +54,10 @@
 #tech-container {
     background-color: rgb(65, 65, 65);
     margin: auto;
-    width: 70%;
-    height: 80%;
+    /* width: 70%;
+    height: 80%; */
+    /* height: 40em; */
+    width: 55em;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -94,14 +95,16 @@
     justify-content: center;
     align-items: center;
     /* height: 30%;
-    width: 10%; */
-    height: 115px;
-    width: 115px;
+    width: 13%; */
+    height: 8em;
+    width: 8em;
 }
 
 .platforms img {
-    height: 5rem;
-    width: 5rem;
+    /* height: 5rem;
+    width: 5rem; */
+    height: 4em;
+    width: 4em;
 }
 
 .platforms:hover {
@@ -122,8 +125,7 @@
 .platforms h3 a {
     font-weight: 350;
     font-family: var(--info-font);
-    font-size: 15px;
-    /* display: none; */
+    font-size: 1.2em;
     color: black;
     color: rgb(255, 242, 227);
     text-align: center;
@@ -144,10 +146,9 @@
     align-self: start;
     width: 70px;
     position: relative;
-    top: 0px;
+    top: 20px;
     left: 3%;
     justify-content: space-between;
-    /* border: 1px solid purple; */
 }
 
 .controls p {
@@ -156,7 +157,6 @@
     height: 15px;
     position: relative;
     margin-bottom: 50px;
-    /* border: 1px solid wheat; */
 }
 
 .controls #close {
@@ -175,4 +175,10 @@
     background-color: rgb(71, 231, 71);
     border-radius: 15px;
 
+}
+
+@media screen and (max-width: 600px) {
+    #head-about {
+        height: 50vh;
+    }
 }

@@ -30,7 +30,6 @@
 }
 
 #me {
-    /* background: linear-gradient(var(--main-text-color), var(--heading-color)); */
     background-color: lightblue;
     width: 100%;
     height: 50vh;
@@ -52,4 +51,10 @@
 
 #me p > *:visited {
     color: cornflowerblue;
+}
+
+@media screen and (max-width: 500px){
+    #me {
+        height: 50%;
+    }
 }

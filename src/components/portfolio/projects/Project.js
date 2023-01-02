@@ -37,7 +37,7 @@ export const Project = ({toggle, project: {name, gitHub, description, techs, url
     </div>
 
     return (
-        <div>
+        <div >
             {modal}
         </div>
     )
